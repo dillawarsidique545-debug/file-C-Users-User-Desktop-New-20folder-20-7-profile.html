@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Profile Page</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #3a3fbf, #00bcd4);
+}
+
+.container {
+    width: 85%;
+    margin: 40px auto;
+    background: #f2f2f2;
+    border-radius: 8px;
+    padding: 30px;
+    display: flex;
+}
+
+.left-section {
+    width: 30%;
+}
+
+.profile-img {
+    position: relative;
+}
+
+.profile-img img {
+    width: 80%;
+    border-radius: 100px;
+}
+
+.change-photo {
+    position: absolute;
+    bottom: 0;
+    width: 80%;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.section-title {
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 14px;
+    color: gray;
+}
+
+.left-section p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.right-section {
+    width: 70%;
+    padding-left: 40px;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-header h2 {
+    margin: 0;
+}
+
+.edit-btn {
+    padding: 8px 15px;
+    border: none;
+    background: #d70a0a;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.profession {
+    color: #007bff;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.rank {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.tabs {
+    margin-top: 20px;
+    border-bottom: 2px solid #ddd;
+}
+
+.tabs span {
+    margin-right: 20px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+.tabs .active {
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+}
+
+.details {
+    margin-top: 20px;
+}
+
+.details-row {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.details-row div:first-child {
+    width: 150px;
+    font-weight: bold;
+}
+
+.details-row div:last-child {
+    color: #007bff;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Left Section -->
+    <div class="left-section">
+        <div class="profile-img">
+           <img src="Dillawar.jpeg" alt="">
+            <div class="change-photo">Change Photo</div>
+        </div>
+
+        <div class="section-title">WORK LINK</div>
+        <p>Website Link</p>
+        <p>Bootsnipp Profile</p>
+        <p>Bootply Profile</p>
+
+        <div class="section-title">SKILLS</div>
+        <p>Web Designer</p>
+        <p>Web Developer</p>
+        <p>WordPress</p>
+        <p>WooCommerce</p>
+        <p>PHP, .Net</p>
+    </div>
+
+    <!-- Right Section -->
+    <div class="right-section">
+        <div class="top-header">
+            <div>
+                <h2>Dillawar Hussain</h2>
+                <div class="profession">Web Developer and Designer</div>
+                <div class="rank">RANKINGS: <b>8/10</b></div>
+            </div>
+            <button class="edit-btn">Edit Profile</button>
+        </div>
+
+        <div class="tabs">
+            <span class="active">About</span>
+            <span>Timeline</span>
+        </div>
+
+        <div class="details">
+            <div class="details-row">
+                <div>User Id</div>
+                <div>Dillawarhussain1234</div>
+            </div>
+            <div class="details-row">
+                <div>Name</div>
+                <div>Dillawar Hussain</div>
+            </div>
+            <div class="details-row">
+                <div>Email</div>
+                <div>dillawarhussaindillawar@gmail.com</div>
+            </div>
+            <div class="details-row">
+                <div>Phone</div>
+                <div>123 4567 89000</div>
+            </div>
+            <div class="details-row">
+                <div>Profession</div>
+                <div>Web Developer and Designer</div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
